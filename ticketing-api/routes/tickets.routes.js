@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
   }
 
   if (level) {
-    parsedLevel = parseInt(level);
+    const parsedLevel = parseInt(level);
     if (!allowedLevels.includes(parsedLevel)) {
       return res
         .status(400)
@@ -63,34 +63,5 @@ router.get("/assignees", (req, res) => {
   const results = Array.from(assigneesMap.values());
   res.json(results);
 });
-
-// GET /tickets/:id
-// router.get("/:id", (req, res) => {
-//   const ticket = tickets.find((t) => t.id === parseInt(req.params.id));
-
-//   if (!ticket) {
-//     return res.status(404).json({ error: "Ticket not found" });
-//   }
-
-//   res.json(ticket);
-// });
-
-// POST /tickets
-// router.post("/", (req, res) => {
-//   const { title } = req.body;
-
-//   if (!title) {
-//     return res.status(400).json({ error: "Title is required" });
-//   }
-
-//   const newTicket = {
-//     id: tickets.length + 1,
-//     title,
-//   };
-
-//   tickets.push(newTicket);
-
-//   res.status(201).json(newTicket);
-// });
 
 module.exports = router;

@@ -1,42 +1,220 @@
+/* Layout wrapper */
+
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 48px 24px 64px;
+}
+
+.ticket-app {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #222;
+}
+
+.app-heading {
+  text-align: center;
+  margin: 0 0 24px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Filter bar */
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 8px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  width: fit-content;
+  margin: 0 auto 32px;
+}
+
+.filter-label {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.filter-button {
+  border: none;
+  background: transparent;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  color: #444;
+}
+
+.filter-button:hover {
+  background-color: #f0f0f0;
+}
+
+.filter-button.active {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Columns */
+
+.ticket-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.ticket-column {
+  border-radius: 8px;
+  padding: 16px 14px 18px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  align-self: start;
+}
+
+.column-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.column-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.column-new {
+  border: 3px solid #f2a3af;
+  background-color: #fdeef1;
+}
+
+.column-in-progress {
+  border: 3px solid #f5d074;
+  background-color: #fff6dd;
+}
+
+.column-closed {
+  border: 3px solid #a4d4b4;
+  background-color: #e8f7ee;
+}
+
+/* Ticket card */
+
+.ticket-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 10px 12px 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.ticket-header {
+  margin-bottom: 6px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.ticket-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.ticket-description {
+  margin: 4px 0 10px;
+  font-size: 13px;
+}
+
+.ticket-label {
+  font-weight: 600;
+}
+
+.ticket-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.ticket-opened {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12px;
+}
+
+.ticket-opened-date {
+  font-weight: 600;
+}
+
+.ticket-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.ticket-assignee {
+  color: #1e6bb8;
+  font-weight: 600;
+}
+
+.ticket-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #c9d1d9;
+  object-fit: cover;
+}
+
+.status-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 999px;
+  text-transform: lowercase;
+  font-size: 11px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.1;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.status-open {
+  background-color: #e3384f;
+}
+
+.status-in-progress {
+  background-color: #f5a623;
+}
+
+.status-closed {
+  background-color: #1f883d;
+}
+
+.status-resolved {
+  background-color: #1f883d;
+}
+
+@media (max-width: 900px) {
+  .ticket-columns {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
