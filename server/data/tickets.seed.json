@@ -1,0 +1,394 @@
+[
+  {
+    "subject": "Support request #1",
+    "description": "Detailed issue description for ticket 1.",
+    "status": "Resolved",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #2",
+    "description": "Detailed issue description for ticket 2.",
+    "status": "In Progress",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #3",
+    "description": "Detailed issue description for ticket 3.",
+    "status": "Open",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #4",
+    "description": "Detailed issue description for ticket 4.",
+    "status": "Resolved",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #5",
+    "description": "Detailed issue description for ticket 5.",
+    "status": "Resolved",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #6",
+    "description": "Detailed issue description for ticket 6.",
+    "status": "In Progress",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #7",
+    "description": "Detailed issue description for ticket 7.",
+    "status": "Resolved",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #8",
+    "description": "Detailed issue description for ticket 8.",
+    "status": "Open",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #9",
+    "description": "Detailed issue description for ticket 9.",
+    "status": "Open",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a2",
+      "name": "Michael Brown",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+    }
+  },
+  {
+    "subject": "Support request #10",
+    "description": "Detailed issue description for ticket 10.",
+    "status": "Open",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #11",
+    "description": "Detailed issue description for ticket 11.",
+    "status": "In Progress",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #12",
+    "description": "Detailed issue description for ticket 12.",
+    "status": "In Progress",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #13",
+    "description": "Detailed issue description for ticket 13.",
+    "status": "Open",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a2",
+      "name": "Michael Brown",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+    }
+  },
+  {
+    "subject": "Support request #14",
+    "description": "Detailed issue description for ticket 14.",
+    "status": "Open",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #15",
+    "description": "Detailed issue description for ticket 15.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #16",
+    "description": "Detailed issue description for ticket 16.",
+    "status": "Open",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #17",
+    "description": "Detailed issue description for ticket 17.",
+    "status": "Resolved",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #18",
+    "description": "Detailed issue description for ticket 18.",
+    "status": "Resolved",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #19",
+    "description": "Detailed issue description for ticket 19.",
+    "status": "Open",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a1",
+      "name": "Sarah Lee",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  },
+  {
+    "subject": "Support request #20",
+    "description": "Detailed issue description for ticket 20.",
+    "status": "Open",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #21",
+    "description": "Detailed issue description for ticket 21.",
+    "status": "Open",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a1",
+      "name": "Sarah Lee",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  },
+  {
+    "subject": "Support request #22",
+    "description": "Detailed issue description for ticket 22.",
+    "status": "Open",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a1",
+      "name": "Sarah Lee",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  },
+  {
+    "subject": "Support request #23",
+    "description": "Detailed issue description for ticket 23.",
+    "status": "Open",
+    "priority": "Medium",
+    "level": 2,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a4",
+      "name": "Emily Davis",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/22.jpg"
+    }
+  },
+  {
+    "subject": "Support request #24",
+    "description": "Detailed issue description for ticket 24.",
+    "status": "Open",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a2",
+      "name": "Michael Brown",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+    }
+  },
+  {
+    "subject": "Support request #25",
+    "description": "Detailed issue description for ticket 25.",
+    "status": "Resolved",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": null
+  },
+  {
+    "subject": "Support request #26",
+    "description": "Detailed issue description for ticket 26.",
+    "status": "Resolved",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a2",
+      "name": "Michael Brown",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg"
+    }
+  },
+  {
+    "subject": "Support request #27",
+    "description": "Detailed issue description for ticket 27.",
+    "status": "Open",
+    "priority": "Critical",
+    "level": 4,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #28",
+    "description": "Detailed issue description for ticket 28.",
+    "status": "Resolved",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #29",
+    "description": "Detailed issue description for ticket 29.",
+    "status": "In Progress",
+    "priority": "Low",
+    "level": 1,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a3",
+      "name": "Daniel Carter",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg"
+    }
+  },
+  {
+    "subject": "Support request #30",
+    "description": "Detailed issue description for ticket 30.",
+    "status": "Resolved",
+    "priority": "High",
+    "level": 3,
+    "createdAt": "2026-03-18T15:15:48.422+00:00",
+    "updatedAt": "2026-03-18T15:15:48.422+00:00",
+    "assignee": {
+      "id": "a1",
+      "name": "Sarah Lee",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/45.jpg"
+    }
+  }
+]
