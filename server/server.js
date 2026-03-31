@@ -1,10 +1,12 @@
+require("dotenv").config();
 const express = require("express");
 const connectDB = require("./config/db");
 const morgan = require("morgan");
 const cors = require("cors");
+const ensureSeedUsers = require("./utils/seedUsers");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 connectDB();
 
@@ -15,6 +17,9 @@ app.use(cors());
 app.use(express.json());
 
 const ticketRoutes = require("./routes/tickets.routes");
+const authRoutes = require("./routes/auth.routes");
+
+app.use("/api/auth", authRoutes);
 app.use("/api/tickets", ticketRoutes);
 
 app.get("/", (req, res) => {
@@ -31,6 +36,7 @@ app.use((req, res) => {
 (async () => {
   try {
     await connectDB();
+    await ensureSeedUsers();
 
     app.listen(PORT, () => {
       console.log(`Server running at http://localhost:${PORT}`);
