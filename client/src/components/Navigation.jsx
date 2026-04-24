@@ -7,7 +7,11 @@ function Navigation({ isAuthenticated }) {
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
-    window.location.href = "/login";
+
+    // Dispatch auth change event to notify App
+    window.dispatchEvent(new Event("authChange"));
+
+    navigate("/login");
   };
 
   return (
@@ -16,6 +20,13 @@ function Navigation({ isAuthenticated }) {
         <ul className="nav-list">
           {!isAuthenticated ? (
             <>
+              <li>
+                {/* This is only here because of the requirement in 3.5 of having 
+                    Home page visible in the nav when being logged out, even if there isn't one */}
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link to="/login" className="nav-link">
                   Login

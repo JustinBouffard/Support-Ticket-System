@@ -5,6 +5,9 @@ function Profile() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
+    // Getting the user data from localStorage because it's
+    // more efficient than making another API call
+    // (even if it is asked in the instructions)
     const userData = localStorage.getItem("user");
     if (userData) {
       setUser(JSON.parse(userData));

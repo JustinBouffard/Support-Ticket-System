@@ -5,8 +5,8 @@ async function ensureSeedUsers() {
   // list of users to seed
   const seedUsers = [
     {
-      name: "Châkirou Alabani",
-      email: "chakirou.alabani@example.com",
+      name: "Justin Bouffard",
+      email: "justin.bouffard@example.com",
       password: "1234",
       role: "admin",
     },

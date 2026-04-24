@@ -18,8 +18,17 @@ function App() {
 
   useEffect(() => {
     const token = localStorage.getItem("token");
-    setIsAuthenticated(!!token);
+    setIsAuthenticated(token ? true : false);
     setLoading(false);
+
+    // Listen for the event in Login to change the authentication state
+    const handleAuthChange = () => {
+      const updatedToken = localStorage.getItem("token");
+      setIsAuthenticated(updatedToken ? true : false);
+    };
+
+    window.addEventListener("authChange", handleAuthChange);
+    return () => window.removeEventListener("authChange", handleAuthChange);
   }, []);
 
   if (loading) {

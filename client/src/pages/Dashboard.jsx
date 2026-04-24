@@ -62,7 +62,7 @@ function Dashboard() {
   return (
     <div className="ticket-app">
       <div className="dashboard-welcome">
-        <h1>Welcome, {user?.name || "User"}!</h1>
+        <h1>Welcome, {user?.name || "User"}</h1>
         <div className="dashboard-stats">
           <div className="stat-card">
             <h3>{totalTickets}</h3>
